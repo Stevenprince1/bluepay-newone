@@ -8,7 +8,7 @@ const BottomNavigation = () => {
   const navigate = useNavigate();
   
   const handleJoinTelegram = () => {
-    window.open("https://t.me/officialbluepay2025", "_blank");
+    window.open("https://t.me/Officialbluepay1", "_blank");
   };
 
   return (
