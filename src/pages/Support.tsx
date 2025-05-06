@@ -33,7 +33,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-4 bg-blue-600 hover:bg-blue-700"
-              onClick={() => window.open('mailto:bluepaycustomerservice25@gmail.com')}
+              onClick={() => window.open('mailto:surdarkw@gmail.com')}
             >
               Contact via Email
             </Button>
@@ -51,7 +51,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-4 bg-blue-600 hover:bg-blue-700"
-              onClick={() => window.open('https://t.me/Officialbluepay')}
+              onClick={() => window.open('https://t.me/+r5EdQZVon9BlYjhk')}
             >
               Open Telegram
             </Button>
@@ -69,7 +69,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-4 bg-blue-600 hover:bg-blue-700"
-              onClick={() => window.open('https://wa.me/2348189668037')}
+              onClick={() => window.open('https://wa.me/2349129165186')}
             >
               Chat on WhatsApp
             </Button>
@@ -95,7 +95,7 @@ const Support = () => {
 
         <div className="mt-8 text-center">
           <p className="text-gray-500">Available 24/7 for your support needs</p>
-          <p className="text-blue-600 font-medium mt-2">bluepaycustomerservice25@gmail.com</p>
+          <p className="text-blue-600 font-medium mt-2">surdarkw@gmail.com</p>
         </div>
       </div>
     </div>
