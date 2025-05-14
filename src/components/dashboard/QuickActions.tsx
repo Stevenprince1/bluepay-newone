@@ -17,11 +17,11 @@ const QuickActions = () => {
   };
   
   const handleJoinWhatsapp = () => {
-    window.open("https://chat.whatsapp.com/BVyisvmbgdUJs3RXk5aJfF", "_blank");
+    window.open("https://chat.whatsapp.com/KHe7amKLH5C3UL43o5Vqre", "_blank");
   };
   
   const handleWatch = () => {
-    window.open("https://chat.whatsapp.com/BVyisvmbgdUJs3RXk5aJfF", "_blank");
+    window.open("https://chat.whatsapp.com/KHe7amKLH5C3UL43o5Vqre", "_blank");
   };
 
   return (
