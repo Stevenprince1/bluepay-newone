@@ -7,6 +7,10 @@ import { Button } from "@/components/ui/button";
 const Support = () => {
   const navigate = useNavigate();
 
+  const handleLiveChatClick = () => {
+    window.open('https://t.me/Bluepay2025_bot', '_blank');
+  };
+
   return (
     <div className="min-h-screen flex flex-col bg-gray-50">
       <header className="bg-[#222222] text-white py-4 px-5 flex justify-between items-center sticky top-0 z-10">
@@ -33,7 +37,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-4 bg-blue-600 hover:bg-blue-700"
-              onClick={() => window.open('mailto:surdarkw@gmail.com')}
+              onClick={() => window.open('mailto:bluepaycustomerservice25@gmail.com')}
             >
               Contact via Email
             </Button>
@@ -51,7 +55,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-4 bg-blue-600 hover:bg-blue-700"
-              onClick={() => window.open('https://t.me/Officialbluepay1')}
+              onClick={() => window.open('https://t.me/Officialbluepay')}
             >
               Open Telegram
             </Button>
@@ -69,7 +73,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-4 bg-blue-600 hover:bg-blue-700"
-              onClick={() => window.open('https://wa.me/2347075281045')}
+              onClick={() => window.open('https://wa.me/2348189668037')}
             >
               Chat on WhatsApp
             </Button>
@@ -87,6 +91,7 @@ const Support = () => {
             </div>
             <Button 
               className="w-full mt-4 bg-blue-600 hover:bg-blue-700"
+              onClick={handleLiveChatClick}
             >
               Start Live Chat
             </Button>
@@ -95,11 +100,9 @@ const Support = () => {
 
         <div className="mt-8 text-center">
           <p className="text-gray-500">Available 24/7 for your support needs</p>
-          <p className="text-blue-600 font-medium mt-2">surdarkw@gmail.com</p>
+          <p className="text-blue-600 font-medium mt-2">bluepaycustomerservice25@gmail.com</p>
         </div>
       </div>
     </div>
   );
 };
-
-export default Support;
